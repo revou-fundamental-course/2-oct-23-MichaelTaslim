@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Kalkulator Suhu</title>
+</head>
+    <body>
+        <header>
+            <h1>Kalkulator Suhu</h1>
+        </header>
+        <main>
+            <p>Masukkan suhu derajat Celcius (°C) ke kotak dibawah, lalu klik tombol Konversi <br> untuk mendapatkan hasil konversi dalam bentuk Fahrenheit (°F).</p>
+        
+            <section class="celcius-section">
+                <label for="Celcius">Celcius (°C)</label>
+                <input type="number" id="Celcius" value="" >
+                <div id="input-button">
+                    <button id ="konversi">Konversi</button>
+                    <button id="reset">Reset</button>
+                    <button id="reverse">Reverse</button>
+            </section>
+
+            <section class="fahrenheit-section">
+                <label for="Fahrenheit">Fahrenheit (°F)</label>
+                <input type="number" id="Fahrenheit" value="">
+            </section>
+
+            <section class="carakalkulasi-section">
+                <label for="Cara_Kalkulasi">Cara Kalkulasi</label>
+                <input type="text" id="Cara_Kalkulasi" value="">
+            </section>
+
+            <a href="">Fahrenheit ke celcius</a>
+
+            <p> <span class="bold">Cara Konversi Dari Celcius (°C) ke Fahrenheit (°F)</span></p>
+            <hr>
+            <p>Suhu <span class="italic">S</span> dalam derajat Fahrenheit (°F) sama dengan suhu <span class="italic">S</span> dalam derajat Celcius (°C) 9/5 tambah 32. </p>
+            <p><span class="italic">S</span>(°F) = (<span class="italic">S</span>(°C) × 9/5) + 32</p>
+            <p>atau</p>
+            <p><span class="italic">S</span>(°F) = (<span class="italic">S</span>(°C) × 1.8) + 32</p>
+        </main>
+        <script src="js/script.js"></script>
+    </body>
+</html>

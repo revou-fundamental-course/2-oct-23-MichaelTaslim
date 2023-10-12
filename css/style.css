@@ -1,0 +1,40 @@
+.celcius-section{
+    display: flex;
+    flex-direction: column;
+    margin-right: 800px;
+}
+
+
+.fahrenheit-section{
+    display: flex;
+    flex-direction: column;
+    margin-right: 800px;
+}
+
+.carakalkulasi-section{
+    display: flex;
+    flex-direction: column;
+    margin-right: 800px;
+}
+
+
+
+
+input{
+    padding: 7px;
+}
+
+button{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+
+.italic{
+    font-style: italic;
+}
+
+.bold{
+    font-weight: bold;
+}
